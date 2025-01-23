@@ -1,4 +1,4 @@
-package com.example.tic_tac_toe_2
+package com.example.assignment_1
 
 import android.os.Bundle
 import android.widget.Button
