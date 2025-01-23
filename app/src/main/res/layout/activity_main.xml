@@ -13,7 +13,6 @@
         android:columnCount="3"
         android:rowCount="3">
 
-        <!-- Create 9 buttons programmatically -->
     </GridLayout>
 
     <TextView

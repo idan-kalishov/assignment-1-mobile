@@ -64,7 +64,6 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun checkWin(): Boolean {
-        // Check rows, columns, and diagonals
         for (i in 0 until 3) {
             if (board[i][0] == currentPlayer && board[i][1] == currentPlayer && board[i][2] == currentPlayer) return true
             if (board[0][i] == currentPlayer && board[1][i] == currentPlayer && board[2][i] == currentPlayer) return true
